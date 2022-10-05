@@ -1,0 +1,99 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "hola",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "Enquiry",
+      "patterns": [
+        "AC rooms available?",
+        "Non-AC rooms available?",
+        "What kinds of rooms are here?",
+        "Do you have AC rooms vacant in the hotel"
+      ],
+      "responses": [
+        "We have 4 AC rooms , 8 non AC rooms available as of now. Press 1 to book a room"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?",
+        "What are the payment options",
+        "will you accept cash?",
+        "Do you take debit cards?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard, cash and Paypal",
+        "We accept most major credit cards,debit cards, cash ,and Paypal"
+      ]
+    },
+    {
+      "tag": "breakfast",
+      "patterns": [
+        "Do we have any complementary benefits",
+        "Can we have complementary breakfast",
+        "What are the timings for breakfast"
+      ],
+      "responses": [
+        "We have complementary breakfast which will be served from morning 8 A.M."
+
+      ]
+    },
+    {
+      "tag": "resources",
+      "patterns": [
+        "what are the available facilities",
+        "Do we have WiFi facility over here",
+        "Do we have Travel helpline desk here?"
+      ],
+      "responses": [
+        "We have free WiFi , hot water , Complementary breakfast  and a Travel advisory desk here"
+      ]
+    },
+
+    {
+      "tag": "Booking",
+      "patterns": [
+        "I want to book a room",
+        "Please book a room for me ",
+        "Book a room for us"
+      ],
+      "responses": [
+        "Please press 1 for booking a room"
+      ]
+    }
+  ]
+}
